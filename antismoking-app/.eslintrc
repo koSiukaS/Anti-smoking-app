@@ -1,0 +1,19 @@
+{
+    "parser": "babel-eslint",
+
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "legacyDecorators": true
+        }
+    },
+
+    "plugins": [
+        "react-native"
+    ],
+
+    "rules": {
+        "semi": [1, "always"]
+    }
+}
